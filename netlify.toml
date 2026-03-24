@@ -1,0 +1,14 @@
+[functions]
+  directory = "netlify/functions"
+
+[[redirects]]
+  from = "/login/"
+  to = "/.netlify/functions/login"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/sample/"
+  to = "/.netlify/functions/sample"
+  status = 200
+  force = true
